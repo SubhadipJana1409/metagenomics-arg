@@ -30,16 +30,23 @@ This project explores antibiotic resistance genes (ARGs) in human gut microbiome
 
 ## 🗂️ Directory Structure
 
-├── data/
-│ ├── raw/
-│ └── processed/
-├── notebooks/
-├── env/
-├── results/
-│ └── figures/
-├── README.md
-├── run_pipeline.py
-└── LICENSE
+
+# ├── data/
+# │   ├── raw/                 # Raw downloaded reads
+# │   └── processed/           # QC reads and alignments
+# ├── notebooks/
+# │   ├── 01_qc_trimming.ipynb
+# │   ├── 02_taxonomy.ipynb
+# │   ├── 03_ARG_annotation.ipynb
+# │   └── 04_visualization.ipynb
+# ├── env/
+# │   └── environment.yml
+# ├── results/
+# │   └── figures/
+# ├── run_pipeline.py
+# ├── README.md
+# └── LICENSE
+
 
 ---
 
@@ -81,4 +88,5 @@ GitHub Repository: https://github.com/SubhadipJana1409/metagenomics-arg
 
 
 🪪 License
+
 This project is licensed under the MIT License. See LICENSE for details.
