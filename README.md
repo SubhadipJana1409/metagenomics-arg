@@ -71,8 +71,9 @@ ARG annotations with class and identity
 
 Visual plots in results/figures/
 
-If you use this pipeline in your work, please cite:
 
+📖 How to Cite
+If you use this pipeline in your work, please cite:
 Subhadip Jana (2025).
 Metagenomic Profiling of Antibiotic Resistance Genes.
 GitHub Repository: https://github.com/SubhadipJana1409/metagenomics-arg
